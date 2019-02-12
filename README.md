@@ -129,7 +129,7 @@ Pangolin python bindings are enabled via [pybind11](www.pybind11.com). These bin
 To enable the bindings, you must checkout the pybind submodule. To use pangolin in python, it's recommend to install a few other python packages too:
 
 ```
-sudo python -mpip install numpy pyopengl Pillow pybind11
+sudo python -m pip install numpy pyopengl Pillow pybind11
 git submodule init && git submodule update
 ```
 
